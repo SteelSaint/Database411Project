@@ -72,7 +72,7 @@ else
             {
                 //something went wrong, display the error
                 echo 'Something went wrong while signing in. Please try again later.';
-                //echo mysql_error(); //debugging purposes, uncomment when needed
+                echo mysql_error(); //debugging purposes, uncomment when needed
             }
             else
             {
@@ -102,6 +102,5 @@ else
         }
     }
 }
- 
 include 'footer.php';
 ?>
