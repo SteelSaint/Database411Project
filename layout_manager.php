@@ -5,6 +5,7 @@
 			  <input type='text' id='usernameinput' name='usernameinput' />
 				<p>Password:</p>
 				<input type='password' id='passwordinput' name='passwordinput' />
+				<p></p>
 				<input type='submit' value='Login' />
 				<button type='button' onclick='location.href=\"/register.html\";'>Register</button>
 			</form>";
