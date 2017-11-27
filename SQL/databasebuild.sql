@@ -1,8 +1,8 @@
-create table users (
-	user_id int(8) unsigned primary key auto_increment,
-    username varchar(64),
-    password varchar(64)
-	);
+CREATE TABLE users (
+    user_id INT(8) UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(64),
+    password BINARY(255) /*Done later because of security*/
+);
     
 create table categories (
 	cat_id int(64) unsigned primary key auto_increment,
